@@ -1,0 +1,11 @@
+export const INVALID_TOKEN_MESSAGE='Не валидный токен'
+export const NOT_FOUND_AUTH_HEADER_MESSAGE='Нету заголовка authorization'
+export const TOKEN_NOT_FOUND_MESSAGE='Не найден токен'
+export const LOGOUT_SUCCESS='Выход успешный' 
+export const USER_ALREADY_CREATED='Пользователь уже создан'
+export const INCORECT_LOGIN ='Не правильный логин'
+export const INCORECT_PWD='Не правильный пароль'
+
+export const POST_SUCCESSFULL_DOWNLOAD='Пост успешно загружен'
+export const POST_TAG_SUCCESSFULL_DOWNLOAD='Тег поста успешно изменен'
+export const POST_SUCCESSFULL_DELETED= 'Пост успешно удален'

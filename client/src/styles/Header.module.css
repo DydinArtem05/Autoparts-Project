@@ -1,0 +1,150 @@
+header {
+    max-width: 100%;
+    margin-bottom: 1%;
+}
+
+.headerSubContent{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    justify-content: space-between;
+    padding: 1em 5%;
+    background-color: #1a1a1a;
+    margin-bottom: 20px;
+}
+
+.headerSubContent_ToLeft{
+    display: inline-grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(2, auto);
+    column-gap: 20px;
+}
+
+.serviceButton{
+    display: inline-grid;
+    grid-template-columns: repeat(3, auto);
+    background-color: transparent;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+    gap: 10px;
+    color: #fff;
+}
+
+
+
+.serviceButton_Flag{
+    width: 20px;
+}
+
+.serviceButton:hover{
+    color: rgb(255 188 11);
+}
+
+.headerSubContent_ToRight{
+    display: inline-grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(4, auto);
+    column-gap: 15px;
+    button{
+        color: #fff;
+        transition: 0.5s ease;
+        background: inherit;
+    }
+    button:hover{
+        color: rgb(255 188 11);
+        transition: 0.1s ease-in;
+    }
+}
+
+.headerSubContent_ToRight a{
+    text-decoration: none;
+}
+
+.headerContent {
+    display: grid;
+    gap: 2%;
+    align-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+}
+
+.logoContainer {
+    max-width: 30%;
+    height: auto;
+}
+
+.logoContainer img {
+    width: 250%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.searchBar {
+    display: inline-grid;
+    grid-template-columns: 4fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.searchBar input {
+    border: 1px solid #e0e0e0;
+    border-radius: 0;
+    padding: 3% 4%;
+    font-size: 15px;
+    margin-right: -5px;
+}
+
+.searchBar input:focus-visible {
+    outline: 2px solid #000;
+    outline-offset: -2px; 
+}
+
+.searchButton {
+    padding: 0 15%;
+    color: #fff;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(204deg, rgb(202, 202, 202) 0%, rgba(0, 0, 0, 1) 18%);
+    border: 0;
+    background-size: 100% 100%;
+    transition: background-size 0.5s ease;
+    transition: 0.5s ease;
+}
+
+
+.searchButton:hover{
+    color: rgb(255 188 11);
+    transition: 0.1s ease-in;
+    transition: background-size 0.5s ease;
+    transition: 0.5s ease;
+    background-size: 200% 200%;
+    cursor: pointer;
+}
+
+@media screen and (max-width:900px) {
+    .headerContainer {
+        grid-template-columns: 1fr 2fr 1fr;
+        grid-template-rows: 1fr;
+        display: grid;
+        gap: 2%;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width:700px) {
+    header {
+        margin: 1% 0 0 0;
+    }
+    .headerContainer {
+        grid-template-rows: 1fr 1fr;
+        row-gap: 10px;
+    }
+    .logoContainer{
+        grid-column: span 2;
+    }
+    .searchBar{
+        grid-column: 1 / span 3;
+        justify-self: center;
+        width: 100%;
+    }
+
+}

@@ -1,0 +1,66 @@
+.auth{
+    background-image: url('../assets/images/AuthPage/AuthBg.png');
+    background-size: cover;
+    background-color: #fdb819;
+}
+
+.authForm{
+    width:100%;
+    height: 100%;
+    padding: 30px;
+}
+
+.authForm form{
+    width: 30%;
+    padding: 2%;
+    margin-left: auto;
+    background-color: #fff;
+    box-shadow: 1px 1px 3px 3px #fff;
+}
+
+.authForm_Name{
+    margin-bottom: 20px;
+}
+
+.formPart{
+    margin-bottom: 20px;
+}
+
+.formPart label{
+    font-weight: bold;
+    font-style: italic;
+    margin-right: 10px;
+}
+
+.formPart input[type="checkbox"]{
+    accent-color: rgb(255 188 11);
+    border: 0;
+    outline: 0;
+    width: 25px;
+}
+
+.formSubmitBtn{
+    background-color: rgb(255 188 11);
+    width: 100%;
+    border: 0;
+    border-radius: 20px;
+    padding: 3% 0;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.3s ease;
+}
+
+.formSubmitBtn:hover{
+    background-color: #000;
+    color: #fff;
+    transition: 0.3s ease;
+}
+
+.suggestionBlock{
+    margin-top: 5%;
+    text-align: center;
+}
+
+.suggestionBlock a{
+    color: #000;
+}

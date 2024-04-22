@@ -1,0 +1,33 @@
+.formControl{
+    display: block;
+    width: 100%;
+}
+
+.formControl input{
+    width: 100%;
+    border: 0;
+    outline: 0;
+    border-bottom: 1px solid #000;
+}
+
+.formControl input:focus{
+    border-bottom: 2px rgb(255 188 11) solid;
+    outline: 0;
+}
+
+.formControl.error input{
+    width: 100%;
+    border-bottom: 2px red solid;
+    outline: 0;
+}
+
+.formControl.error input:focus{
+    border-bottom: 1px red solid;
+    outline: none;
+}
+
+.formControl.error span{
+    color: red;
+    font-weight: bold;
+    font-size: 15px;
+}

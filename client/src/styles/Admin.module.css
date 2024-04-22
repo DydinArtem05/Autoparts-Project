@@ -1,0 +1,79 @@
+.App{
+    min-height: 100vh;
+}
+
+.admin{
+    padding-top: 80px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.admin__user{
+    padding-top: 10px;
+
+}
+.admin__auth{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 300px;
+    margin: auto auto;
+    text-align: center;
+    gap: 14px;
+    height: calc(100vh - 140px);
+}
+
+.admin__statistic{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 80%;
+}
+
+.admin__statistic-container{
+    height: 50vh;
+    width: 100%;
+    margin: auto auto;
+}
+
+.admin__brand__add{
+    display: grid;
+    grid-template-columns: 150px 1fr 1fr auto;
+    gap: 14px;
+    padding: 14px 0;
+}
+
+.admin__brand__add_img{
+    display: flex;
+    gap: 4px;
+    overflow: hidden;
+}
+
+.admin__categories__button{
+    display: flex;
+    gap: 15px;
+}
+
+.admin__product{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.admin__product__add{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 14px;
+}
+
+.admin__categories__route{
+    padding: 5px 0;
+}
+
+.admin__categories__route_path{
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+.admin__categories__route_path:hover{
+    color: blue;
+    
+}

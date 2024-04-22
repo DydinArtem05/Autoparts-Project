@@ -1,0 +1,96 @@
+i{
+    transition: 0.2s ease;
+}
+
+.productPage{
+    width: 80%;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+.productItem{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+    box-shadow: 1px 1px 6px -2px;
+}
+
+.productImage{
+    width: 100%;
+    height: 70%;
+    margin: 0 auto;
+    background-color: #f3f3f3;
+    text-align: center;
+    cursor: pointer;
+}
+
+.productImage img{
+    width: 80%;
+    transition: 0.3s ease;
+}
+
+.productImage:hover{
+    height: 75%;
+}
+
+.productImage:hover img{
+    width: 75%;
+    transition: 0.3s ease;
+}
+
+.productDetail{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.productLink{
+    color: #000;
+    text-decoration: none;
+    transition: 0.2s ease;
+}
+
+.productLink:hover{
+    color: rgb(255 188 11);
+    transition: 0.2s ease;
+}
+
+.productName{
+    font-family: 'Roboto';
+}
+
+.productDescription{
+    color: #000;
+    font-style: italic;
+}
+
+.productDropline{
+    width: 100%;
+    height: 40px;
+    display: inline-grid;
+    background-color: rgb(255 188 11);
+    grid-template-columns: 3fr 1fr 1fr;
+}
+
+.productPrice{
+    color: #fff;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+}
+
+.productButtons{
+    border: 0;
+    border-left: 1px solid #f3f3f3;
+    text-align: center;
+    background-color: transparent;
+}
+
+.productButtons:hover > i{
+    transition: 0.2s ease;
+    font-size: small;
+    color: #f3f3f3;
+}

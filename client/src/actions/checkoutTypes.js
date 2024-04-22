@@ -1,0 +1,5 @@
+// checkoutTypes.js
+export const SET_SHIPPING_INFO = 'SET_SHIPPING_INFO';
+export const SET_PAYMENT_METHOD = 'SET_PAYMENT_METHOD';
+export const COMPLETE_ORDER = 'COMPLETE_ORDER';
+export const RESET_CHECKOUT = 'RESET_CHECKOUT';
